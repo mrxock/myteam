@@ -33,7 +33,7 @@ ul{
   list-style-type: none;
 }
 .container{
-  width: 1150px;
+  max-width: 1150px;
   padding:0 20px;
   margin: 0 auto;
 }
@@ -203,8 +203,9 @@ ul{
   .stories {
     padding: 140px 0;
     background-color: #004047;
-    background-image: url(../img/direct-background-2.png);
+    background-image: url(../img/direct-background-2.png),url(../img/info-background2.svg);
     background-repeat: no-repeat;
+    background-position: 0 0, right bottom;
   }
   .stories__inner{
     text-align: center;
@@ -234,6 +235,7 @@ ul{
     content: '';
     background-image: url(../img/blockqoute.svg);
     display: block;
+    z-index: -2;
   }
   .stories__item-name {
     margin-top: 24px;
@@ -248,3 +250,91 @@ ul{
     line-height: 18px;
     color: #FFFFFF;
   }
+  /* CONTACT-BAR */
+  .box{
+  max-width: 917px;
+  padding:0 20px;
+  margin: 0 auto;
+
+  }
+  .contact-bar {
+    background-color: #F67E7E;
+    padding: 76px 0;
+    background-image: url(../img/contacts.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+  }
+  .contact-bar__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-bar__title{
+    font-family: "Livvic-bold";
+    font-size: 48px;
+    line-height: 48px;
+    color: #012F34;
+  }
+  .contact-bar__link{
+    padding: 9px 33px 11px 32px;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    font-family: "Livvic-semibold";
+    font-size: 18px;
+    line-height: 28px;
+    color: #012F34;
+    text-decoration: none;
+  }
+ .stories__title_color{
+   color: #79C8C7;
+ }
+ /* FOOTER */
+ .footer{
+   background-color: #002529;
+   padding: 48px 0;
+ }
+ .footer__wrapper{
+   display: flex;
+   justify-content: space-between;
+ }
+ .footer__left-coner{
+   display: flex;
+   align-items: center;
+ }
+ .footer__nav{
+   margin-top: 25px;
+ }
+ .footer__nav a+a{
+   margin-left: 40px;
+ }
+ .footer__link{
+  font-family: "Livvic-semibold";
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+ }
+ .footer__list{
+   font-family: "Livvic-semibold";
+   margin-left: 125px;
+   line-height: 25px;
+   font-size: 15px;
+   color: #FFFFFF;
+   mix-blend-mode: normal;
+   opacity: 0.6;
+ }
+ .footer__item{
+   margin-top: 8px;
+ }
+ .footer__right-coner_inner{
+   text-align: end;
+ }
+ .footer__end{
+   margin-top: 51px;
+  font-family: "Livvic-semibold";
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+ }
