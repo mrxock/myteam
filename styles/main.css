@@ -338,3 +338,9 @@ ul{
   mix-blend-mode: normal;
   opacity: 0.6;
  }
+ .footer__socialmedia{
+   display: inline-block;
+ }
+ .footer__socialmedia ~ .footer__socialmedia{
+   margin-left: 16px;
+ }
