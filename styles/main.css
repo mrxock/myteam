@@ -344,3 +344,27 @@ ul{
  .footer__socialmedia ~ .footer__socialmedia{
    margin-left: 16px;
  }
+ /* ---------------second  ABOUT page */
+ .sitehero__second{
+  padding-top: 129px;
+  padding-bottom: 120px;
+  background-color: #014E56;
+  background-image: url(../img/about.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.sitehero__subtitle_second {
+  width: 445px;
+  font-family: "Livvic-semibold";
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.sitehero__subtitle_second::before{
+  content: '';
+  margin-bottom: 40px;
+  display: block;
+  width: 50px;
+  height: 4px;
+  background:  #F67E7E;
+}
