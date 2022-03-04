@@ -368,3 +368,68 @@ ul{
   height: 4px;
   background:  #F67E7E;
 }
+/* PERSONAL */
+
+.personal {
+  padding-top: 154px;
+  padding-bottom: 122px;
+  background-color: #004047;
+}
+.personal__title {
+  font-family: "Livvic-bold";
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+}
+.personal__card {
+  margin-top: 16px;
+}
+.personal__list {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.personal__item {
+  padding-top: 32px;
+  padding-bottom: 56px;
+  width: 350px;
+  height: 253px;
+  background: #012F34;
+  text-align: center;
+}
+.personal__img {
+}
+.personal__title_inner {
+  margin-top: 16px;
+  font-family: "Livvic-bold";
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+}
+.personal__subtitle {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.add {
+  margin-top: 28px;
+  margin-left: 148px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F67E7E;
+  border-radius: 50%;
+  font-family: "Livvic-bold";
+  color: #012F34;
+  font-size: 30px;
+}
+.add span{
+  margin-bottom: 7px;
+  margin-left: 2px;
+}
