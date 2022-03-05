@@ -464,8 +464,7 @@ color: #FFFFFF;
 .registration__inner {
   display: flex;
 }
-.registration__info {
-}
+
 .registration__title{
   font-family: "Livvic-bold";
   font-size: 64px;
@@ -479,14 +478,7 @@ color: #FFFFFF;
   line-height: 48px;
   color: #F67E7E;
 }
-.quote__item {
-}
-.quote__item-info {
-}
-.quote__item-title {
-}
-.quote__item-subtitle {
-}
+
 .registration__form {
   display: flex;
   flex-direction: column;
