@@ -372,8 +372,11 @@ ul{
 
 .personal {
   padding-top: 154px;
-  padding-bottom: 122px;
+  padding-bottom: 142px;
   background-color: #004047;
+  background-image: url(../img/direct-background.png), url(../img/direct-background-2.png);
+  background-repeat: no-repeat;
+  background-position: 0 0 , right bottom;
 }
 .personal__title {
   font-family: "Livvic-bold";
@@ -399,8 +402,7 @@ color: #FFFFFF;
   background: #012F34;
   text-align: center;
 }
-.personal__img {
-}
+
 .personal__title_inner {
   margin-top: 16px;
   font-family: "Livvic-bold";
@@ -432,4 +434,105 @@ color: #FFFFFF;
 .add span{
   margin-bottom: 7px;
   margin-left: 2px;
+}
+/* CLIENTS */
+.clients {
+  padding: 145px 0;
+  background-color: #012F34;
+  background-image: url(../img/clients-bg.svg);
+  background-repeat: no-repeat;
+}
+.clients__title {
+  margin-bottom: 70px;
+  font-family: "Livvic-bold";
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.clients__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* REGISTER PAGE */
+.registration {
+  padding: 120px 0;
+  background-color: #014E56;
+}
+
+.registration__inner {
+  display: flex;
+}
+.registration__info {
+}
+.registration__title{
+  font-family: "Livvic-bold";
+  font-size: 64px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+.registration__subtitle{
+  margin-bottom: 32px;
+  font-family: "Livvic-bold";
+  font-size: 32px;
+  line-height: 48px;
+  color: #F67E7E;
+}
+.quote__item {
+}
+.quote__item-info {
+}
+.quote__item-title {
+}
+.quote__item-subtitle {
+}
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register__inp {
+  width: 540px;
+  height: 35px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+.register__inp ~ .register__inp{
+  margin-top: 54px;
+}
+.register__btn {
+  width: 123px;
+  margin-top: 24px;
+  padding: 9px 32px 11px 32px;
+  font-family: "Livvic-semibold";
+  font-size: 18px;
+  line-height: 28px;
+  color: #004047;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+.texarea{
+  padding-top: 10px;
+  padding-bottom: 58px;
+}
+.register__inp::placeholder{
+  font-family: "Livvic-semibold";
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: rgb(255, 255, 255,0.6);
+  mix-blend-mode: normal;
+}
+.register__inp:focus{
+  border-bottom:1 solid #FFFFFF;
+  font-family: "Livvic-semibold";
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #FFFFFF;
 }
