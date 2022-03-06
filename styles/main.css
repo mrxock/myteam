@@ -83,7 +83,9 @@ ul{
   color: #FFFFFF;
   text-decoration: none;
 }
-
+.header__list_link:active{
+  color: #F67E7E;
+}
 .header__contact-link {
   padding: 9px 33px 11px 32px;
   border: 2px solid #FFFFFF;
@@ -93,6 +95,14 @@ ul{
   line-height: 28px;
   color: #FFFFFF;
   text-decoration: none;
+}
+.header__contact-link:hover{
+  background-color: #fff;
+  color: #002529;
+}
+.header__contact-link:active{
+  background-color: #fff;
+  color: #002529;
 }
 /* SITE HERO */
 
@@ -284,6 +294,13 @@ ul{
     line-height: 28px;
     color: #012F34;
     text-decoration: none;
+  }
+  .contact-bar__link:hover{
+    background: #79C8C7;
+  }
+  .contact-bar__link:active{
+    background-color: #012F34;
+    color: #ffffff;
   }
  .stories__title_color{
    color: #79C8C7;
@@ -529,3 +546,10 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 /* RESPONSIVE */
+@media only screen and(max-width:768px) {
+  .container{
+    max-width: 1048px;
+    background-color: tomato;
+  }
+
+}
